@@ -1,0 +1,45 @@
+.client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.client__box-one {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: #AFB1B8;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    &:hover, 
+    &:focus {
+    border: 1px solid var(--acsent-color);
+    color: var(--acsent-color);}       
+}
+
+.client__company {
+    fill: currentColor;
+    &:hover,
+    &:hover {
+    border: 1px solid var(--acsent-color);
+    color: var(--acsent-color);}
+}
+
+.client__spesoc {
+    display: flex;
+    gap: 30px;
+}
+
+.client__titel {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+}

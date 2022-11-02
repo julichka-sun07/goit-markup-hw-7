@@ -1,0 +1,60 @@
+
+
+h3.prioritet {
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+  }
+  
+.main__titele {   
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    width: 696px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    }
+.box:nth-child(1), .box:nth-child(2), 
+.box:nth-child(3), .box:nth-child(4) {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;   
+}
+.spesok {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.sresok-picture {
+    fill: #AFB1B8;
+}
+.prioritet-clas {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+padding-bottom: 10px;
+}
+.prioritet-info {
+color: var(--text-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}  

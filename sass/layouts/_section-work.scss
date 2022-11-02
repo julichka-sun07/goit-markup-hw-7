@@ -1,0 +1,42 @@
+.work {
+    padding-top: 0px;
+    padding-bottom: 94px;
+}
+.work__dodatok {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    }
+.work__dodatok-foto {
+    position: relative;
+    }
+    
+.work__dodatok-blok {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    }
+.work__dodatok-foto-one {
+    position: relative;
+    }
+.work__dodatok-foto-two {
+    position: relative;
+    }
+   
+.work__srction-foto {
+    display: flex;
+    gap: 30px;
+}
+
+    

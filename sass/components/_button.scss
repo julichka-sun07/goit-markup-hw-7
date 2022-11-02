@@ -1,0 +1,82 @@
+.main__button-osnovna {
+    background-color: var(--acsent-color);
+    font-family: 'Roboto';
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 1.88;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ letter-spacing: 0.06em;
+ color: #FFFFFF;  
+ cursor: pointer;
+ border-radius: 4px;
+ margin:0 auto;
+ min-width: 216px;
+ padding: 10px 32px;
+ border: 2px solid transparent;
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+ color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ } 
+ 
+ .button {
+ color: var(--title-text-color);
+ background-color: var(--fon-komanda-color);
+ font-family: 'Roboto';
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.62;
+ text-align: center;
+ letter-spacing: 0.03em;
+ cursor: pointer;
+ border-radius: 4px;
+ min-width: 125px;
+ padding: 6px 22px;
+ border: 2px solid transparent;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ &:hover, 
+ &:focus {
+ background-color: var(--acsent-color);
+ color: #FFFFFF;}
+} 
+ 
+ .button-all {
+         background-color: var(--acsent-color);
+         font-family: 'Roboto';
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 1.62;      
+         text-align: center;
+         letter-spacing: 0.03em;  
+         color: #FFFFFF;
+         cursor: pointer;
+         border-radius: 4px;
+         min-width: 73px;
+         padding: 6px 25px;
+         border: 2px solid var(--acsent-color);
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), 
+         color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover, 
+        &:focus {
+        background: #2196F3;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);}
+}
+ 
+.button {
+    fill: currentColor;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    background: var(--acsent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);} 
+}

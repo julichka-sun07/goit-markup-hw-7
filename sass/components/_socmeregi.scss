@@ -1,0 +1,27 @@
+.socmeregi {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+    .blok-socmeregi {
+        display: flex;
+        width: 206px;
+        margin-top: 16px;
+        gap: 10px;
+        flex-direction: column;
+        margin-left: 70px;
+    }
+    .socmeregi-one {
+        display: flex;
+    }
+    .icon {
+        color: var(--text-color);
+        &:hover {
+        color: var(--acsent-color);}
+    }
+    
